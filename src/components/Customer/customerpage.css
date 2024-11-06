@@ -1,0 +1,104 @@
+/* Main container styling */
+.customer-page {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative; /* Allows positioning of cart button */
+  }
+  
+  /* Cart button container styling */
+  .cart-button-container {
+    position: absolute;
+    top: 20px;
+    right: 90px; /* Position the cart button to the right */
+  }
+  
+  /* Heading styling */
+  .customer-page h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Product cards container */
+  .product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Product card styling */
+  .product-card {
+    background-color: #f9fafb;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    width: 22%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow-wrap: break-word;
+  }
+  
+  .product-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+    word-wrap: break-word;
+  }
+  
+  /* Truncated description styling */
+  .description {
+    max-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+  
+  /* Image styling */
+  .product-image {
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+    object-fit: scale-down;
+    margin: 10px 0;
+  }
+  
+  /* Cart button styling */
+  .cart-button {
+    padding: 8px 40px;
+    background-color: #5cb85c;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 12px;
+
+  }
+  
+  /* Added to cart button styling */
+  .cart-button.added {
+    background-color: #f0ad4e;
+  }
+  
+  /* Add to Cart button styling with swapped dimensions */
+  .product-card .cart-button {
+    width: 140px; /* New width */
+    height: 50px; /* New height */
+  }
+  

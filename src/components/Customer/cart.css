@@ -1,0 +1,81 @@
+/* Cart container styling */
+.cart-container {
+    padding: 30px;
+    max-width: 90%; /* Increase width to 90% */
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: right; /* Align text to the left */
+}
+  
+/* Cart item strip styling */
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between strips */
+}
+  
+/* Individual strip styling */
+.cart-strip {
+    display: flex;
+    align-items: center;
+    background-color: #f9fafb;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%; /* Full width of the container */
+    height: 70px; /* Increased height */
+}
+  
+/* Image styling */
+.cart-image {
+    width: 60px; /* Increased size */
+    height: 60px; /* Increased size */
+    object-fit: cover;
+    margin-right: 10px; /* Space between image and text */
+}
+  
+/* Text styling */
+.cart-item-name,
+.cart-store-name,
+.cart-item-price {
+    margin-right: 10px; /* Space between text elements */
+    font-size: 18px; /* Increased text size */
+}
+  
+/* Total strip styling */
+.total-strip {
+    display: flex;
+    align-items: center;
+    background-color: #f9fafb;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px; /* Space above total */
+    font-size: 18px; /* Increased font size */
+}
+
+/* Order Now button container */
+.order-now-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px; /* Space above the Order Now button */
+}
+
+/* Order Now button styling */
+.order-now-button {
+    background-color: #ffd700; /* Bright yellow color */
+    color: #000;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-now-button:hover {
+    background-color: #ffbf00; /* Slightly darker yellow on hover */
+}

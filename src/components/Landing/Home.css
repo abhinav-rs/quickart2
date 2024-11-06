@@ -1,0 +1,28 @@
+.home-container {
+    text-align: center;
+    background-color: #f1f8f4; /* Light background color */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart-button {
+    padding: 15px 25px; /* Padding for button size */
+    background-color: #000000; 
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth transition */
+    width: 20%; /* Ensure button stays at its natural size */
+}
+
+/* Button hover effect */
+.cart-button:hover {
+    background-color: #000000; /* Darker green on hover */
+    transform: scale(1.2); /* Expand on hover */
+}
+
+
+
+

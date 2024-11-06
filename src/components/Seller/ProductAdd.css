@@ -1,0 +1,93 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8f4;
+}
+
+/* Center the container */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f1f8f4; /* Light background */
+}
+
+/* Main container styling */
+.product-add-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Heading styling */
+.product-add-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.product-add-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-add-form label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.product-add-form input[type="text"],
+.product-add-form input[type="number"],
+.product-add-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    transition: border-color 0.2s;
+    background-color: #f9fafb;
+}
+
+.product-add-form input:focus {
+    border-color: #07720a; /* Green highlight */
+}
+
+/* Button styling */
+.product-add-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #009688; /* Green color */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.product-add-form button:disabled {
+    background-color: #999999;
+    cursor: not-allowed;
+}
+
+.product-add-form button:hover:enabled {
+    background-color: #07720a; /* Darker green on hover */
+}
